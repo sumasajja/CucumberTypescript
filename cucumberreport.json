@@ -1,0 +1,88 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I am going to validate RahulShetty Practice App",
+    "line": 1,
+    "id": "i-am-going-to-validate-rahulshetty-practice-app",
+    "tags": [],
+    "uri": "features\\practice.feature",
+    "elements": [
+      {
+        "id": "i-am-going-to-validate-rahulshetty-practice-app;select-countries-autodropdown-functionality",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Select countries AutoDropDown Functionality",
+        "tags": [
+          {
+            "name": "@practicetesting",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions\\hooks.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I enter to 'https://rahulshettyacademy.com/AutomationPractice/'",
+            "match": {
+              "location": "stepDefinitions\\practicesteps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter 'au'",
+            "match": {
+              "location": "stepDefinitions\\practicesteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the output displayed should be",
+            "match": {
+              "location": "stepDefinitions\\practicesteps.ts:17"
+            },
+            "result": {
+              "status": "pending",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
